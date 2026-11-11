@@ -1,0 +1,16 @@
+{
+ "episodios": 5000,
+ "falhas": 252,
+ "taxa_falha": 0.0504,
+ "por_tipo": {
+  "saiu": 75,
+  "pouso fora": 159,
+  "queda": 18
+ },
+ "ultima_rajada_passos_antes_do_fim": {
+  "2": 43,
+  "1": 162,
+  "3+": 2,
+  "0": 45
+ }
+}

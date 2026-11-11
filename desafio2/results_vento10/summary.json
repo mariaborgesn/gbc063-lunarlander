@@ -1,0 +1,127 @@
+{
+  "episodes": 20000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_states": 18150,
+  "wind": 0.1,
+  "random": {
+    "mean": -196.41402801994116,
+    "std": 69.45436498600482,
+    "landed": 0.0,
+    "outcomes": {
+      "saiu": 668,
+      "queda": 332
+    },
+    "mean_len": 4.882
+  },
+  "optimal": {
+    "mean": 276.502462727805,
+    "std": 71.66507124462478,
+    "landed": 0.945,
+    "outcomes": {
+      "pouso": 945,
+      "pouso fora": 35,
+      "saiu": 14,
+      "queda": 6
+    },
+    "mean_len": 12.779
+  },
+  "dqn_backend": "numpy",
+  "tabular": [
+    {
+      "mean": 183.3074760703805,
+      "std": 130.6161344849926,
+      "landed": 0.527,
+      "outcomes": {
+        "pouso": 527,
+        "pouso fora": 383,
+        "saiu": 48,
+        "queda": 42
+      },
+      "mean_len": 9.476,
+      "seed": 0,
+      "train_seconds": 2.355154275894165,
+      "visited_states": 4256
+    },
+    {
+      "mean": 165.35587202028913,
+      "std": 132.06720284478737,
+      "landed": 0.423,
+      "outcomes": {
+        "pouso fora": 473,
+        "pouso": 423,
+        "queda": 65,
+        "saiu": 39
+      },
+      "mean_len": 9.026,
+      "seed": 1,
+      "train_seconds": 2.1548852920532227,
+      "visited_states": 4345
+    },
+    {
+      "mean": 175.81703181127276,
+      "std": 124.33406992714959,
+      "landed": 0.471,
+      "outcomes": {
+        "pouso": 471,
+        "pouso fora": 437,
+        "saiu": 48,
+        "queda": 44
+      },
+      "mean_len": 9.423,
+      "seed": 2,
+      "train_seconds": 2.2884061336517334,
+      "visited_states": 4286
+    }
+  ],
+  "dqn": [
+    {
+      "mean": 269.10250344270537,
+      "std": 88.2574276079614,
+      "landed": 0.934,
+      "outcomes": {
+        "pouso": 934,
+        "queda": 22,
+        "saiu": 18,
+        "pouso fora": 26
+      },
+      "mean_len": 16.567,
+      "seed": 0,
+      "train_seconds": 91.33855748176575,
+      "env_steps": 290771
+    },
+    {
+      "mean": 260.4965783169049,
+      "std": 107.26785282129451,
+      "landed": 0.92,
+      "outcomes": {
+        "pouso": 920,
+        "saiu": 35,
+        "pouso fora": 21,
+        "queda": 24
+      },
+      "mean_len": 15.431,
+      "seed": 1,
+      "train_seconds": 92.95738434791565,
+      "env_steps": 291186
+    },
+    {
+      "mean": 265.90805649163906,
+      "std": 100.20123338877401,
+      "landed": 0.945,
+      "outcomes": {
+        "pouso": 945,
+        "queda": 15,
+        "saiu": 39,
+        "pouso fora": 1
+      },
+      "mean_len": 18.309,
+      "seed": 2,
+      "train_seconds": 90.68117833137512,
+      "env_steps": 274760
+    }
+  ]
+}
