@@ -37,3 +37,5 @@ as mesmas 4 ações e recompensas do Desafio 1.
 
 Com vento, 98% das falhas do ótimo têm uma rajada nos 3 últimos passos: não sobra tempo
 para corrigir. O teto vem do ambiente; a distância até ele, do treino.
+
+file:///C:/Users/maria/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/32BF0B7D322956AE4D676B5A4ACF00F29EC6829F/transfers/2026-47/Desafio%202%20%C2%B7%20LunarLander%20em%20grade%20rodando.html
